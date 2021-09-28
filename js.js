@@ -9,9 +9,10 @@ links.addEventListener('click', toggleMenu);
 overlay.addEventListener('click', toggleMenu);
  
 function toggleMenu() {
-    button.classList.toggle("active");
-    menu.classList.toggle("active");
-    links.classList.toggle("active");
-    overlay.classList.toggle("active");
+	    button.classList.toggle("active");
+	    menu.classList.toggle("active");
+	    links.classList.toggle("active");
+	    overlay.classList.toggle("active");
 }
+
 
